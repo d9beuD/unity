@@ -1,0 +1,54 @@
+.btn {
+  --btn-border-width: 1px;
+  --btn-primary-color: var(--#{$prefix}primary);
+  --btn-primary-color-rgb: var(--#{$prefix}primary-rgb);
+
+  background: none;
+  border: var(--btn-border-width) solid transparent;
+  color: var(--btn-primary-color);
+  border-radius: $border-radius-pill;
+  padding: calc($spacer / 4) calc($spacer / 1.5);
+
+  &.btn-sm {
+    font-size: $spacer * .75;
+    padding: calc($spacer / 4) calc($spacer / 1.5);
+  }
+
+  &.btn-lg {
+    font-size: $spacer * 1.25;
+    padding: calc($spacer / 3) calc($spacer);
+    border-radius: $border-radius-xl;
+  }
+
+  &.btn-gray {
+    background-color: rgba(var(--#{$prefix}gray-4-rgb), 0.6);
+  }
+
+  &.btn-tinted {
+    background-color: rgba(var(--btn-primary-color-rgb), 0.2);
+  }
+
+  &.btn-filled {
+    background-color: var(--btn-primary-color);
+    color: var(--#{$prefix}white);
+  }
+
+  &.btn-outline {
+    background-color: transparent;
+    border-color: var(--btn-primary-color);
+    color: var(--btn-primary-color);
+  }
+
+  &.btn-disabled,
+  &:disabled {
+    color: var(--#{$prefix}gray-1);
+    cursor: not-allowed;
+  }
+
+  @each $color, $value in $theme-colors {
+    &.btn-#{$color} {
+      --btn-primary-color: var(--#{$prefix}#{$color});
+      --btn-primary-color-rgb: var(--#{$prefix}#{$color}-rgb);
+    }
+  }
+}
