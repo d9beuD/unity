@@ -1,0 +1,34 @@
+// Reboot
+//
+// Normalization of HTML elements, manually forked from Normalize.css to remove
+// styles targeting irrelevant browsers while applying new styles.
+//
+// Normalize is licensed MIT. https://github.com/necolas/normalize.css
+
+
+// Document
+//
+// Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Root
+//
+// Ability to the value of the root font sizes, affecting the value of `rem`.
+// null by default, thus nothing is generated.
+
+:root {
+  @if $font-size-root != null {
+    @include font-size(var(--#{$prefix}root-font-size));
+  }
+
+  @if $enable-smooth-scroll {
+    @media (prefers-reduced-motion: no-preference) {
+      scroll-behavior: smooth;
+    }
+  }
+}

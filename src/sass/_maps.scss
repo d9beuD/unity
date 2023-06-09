@@ -1,0 +1,150 @@
+$colors: (
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "mint": $mint,
+  "teal": $teal,
+  "cyan": $cyan,
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "brown": $brown,
+  "black": $black,
+  "white": $white,
+);
+
+$colors-rgb: (
+  "red-rgb": $red-rgb,
+  "orange-rgb": $orange-rgb,
+  "yellow-rgb": $yellow-rgb,
+  "green-rgb": $green-rgb,
+  "mint-rgb": $mint-rgb,
+  "teal-rgb": $teal-rgb,
+  "cyan-rgb": $cyan-rgb,
+  "blue-rgb": $blue-rgb,
+  "indigo-rgb": $indigo-rgb,
+  "purple-rgb": $purple-rgb,
+  "pink-rgb": $pink-rgb,
+  "brown-rgb": $brown-rgb,
+  "black-rgb": $black-rgb,
+  "white-rgb": $white-rgb,
+);
+
+$grays: (
+  "gray-1": $gray-1,
+  "gray-2": $gray-2,
+  "gray-3": $gray-3,
+  "gray-4": $gray-4,
+  "gray-5": $gray-5,
+  "gray-6": $gray-6,
+);
+
+$grays-rgb: (
+  "gray-1-rgb": $gray-1-rgb,
+  "gray-2-rgb": $gray-2-rgb,
+  "gray-3-rgb": $gray-3-rgb,
+  "gray-4-rgb": $gray-4-rgb,
+  "gray-5-rgb": $gray-5-rgb,
+  "gray-6-rgb": $gray-6-rgb,
+);
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+
+$theme-colors-rgb: (
+  "primary-rgb": $primary-rgb,
+  "secondary-rgb": $secondary-rgb,
+  "success-rgb": $success-rgb,
+  "info-rgb": $info-rgb,
+  "warning-rgb": $warning-rgb,
+  "danger-rgb": $danger-rgb,
+  "light-rgb": $light-rgb,
+  "dark-rgb": $dark-rgb,
+);
+
+// Dark colors
+// @if $enable-dark-mode {
+$colors-dark: (
+  "red": $red-dark,
+  "orange": $orange-dark,
+  "yellow": $yellow-dark,
+  "green": $green-dark,
+  "mint": $mint-dark,
+  "teal": $teal-dark,
+  "cyan": $cyan-dark,
+  "blue": $blue-dark,
+  "indigo": $indigo-dark,
+  "purple": $purple-dark,
+  "pink": $pink-dark,
+  "brown": $brown-dark,
+  "black": $black,
+  "white": $white,
+);
+
+$colors-dark-rgb: (
+  "red-rgb": $red-dark-rgb,
+  "orange-rgb": $orange-dark-rgb,
+  "yellow-rgb": $yellow-dark-rgb,
+  "green-rgb": $green-dark-rgb,
+  "mint-rgb": $mint-dark-rgb,
+  "teal-rgb": $teal-dark-rgb,
+  "cyan-rgb": $cyan-dark-rgb,
+  "blue-rgb": $blue-dark-rgb,
+  "indigo-rgb": $indigo-dark-rgb,
+  "purple-rgb": $purple-dark-rgb,
+  "pink-rgb": $pink-dark-rgb,
+  "brown-rgb": $brown-dark-rgb,
+  "black-rgb": $black-rgb,
+  "white-rgb": $white-rgb,
+);
+
+$grays-dark: (
+  "gray-1": $gray-1-dark,
+  "gray-2": $gray-2-dark,
+  "gray-3": $gray-3-dark,
+  "gray-4": $gray-4-dark,
+  "gray-5": $gray-5-dark,
+  "gray-6": $gray-6-dark,
+);
+
+$grays-dark-rgb: (
+  "gray-1-rgb": $gray-1-dark-rgb,
+  "gray-2-rgb": $gray-2-dark-rgb,
+  "gray-3-rgb": $gray-3-dark-rgb,
+  "gray-4-rgb": $gray-4-dark-rgb,
+  "gray-5-rgb": $gray-5-dark-rgb,
+  "gray-6-rgb": $gray-6-dark-rgb,
+);
+
+$theme-colors-dark: (
+  "primary": $primary-dark,
+  "secondary": $secondary-dark,
+  "success": $success-dark,
+  "info": $info-dark,
+  "warning": $warning-dark,
+  "danger": $danger-dark,
+  "light": $light-dark,
+  "dark": $dark-dark,
+);
+
+$theme-colors-dark-rgb: (
+  "primary-rgb": $primary-dark-rgb,
+  "secondary-rgb": $secondary-dark-rgb,
+  "success-rgb": $success-dark-rgb,
+  "info-rgb": $info-dark-rgb,
+  "warning-rgb": $warning-dark-rgb,
+  "danger-rgb": $danger-dark-rgb,
+  "light-rgb": $light-dark-rgb,
+  "dark-rgb": $dark-dark-rgb,
+);
+// }
